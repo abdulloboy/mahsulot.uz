@@ -1,12 +1,9 @@
 ## About Mahsulot.uz
 
-- Demo user with admin role
-- login: admin@example.com 
-- password: password
+# Install
 
-- Demo user with user role
-- login: user@example.com
-- password: password
+Run command:
+php artisan migrate:fresh --seed
 
 # Configuration
 
@@ -16,6 +13,17 @@ VAT=0.2
 # Run Tests
 
 php artisan test 
+
+# Info
+
+- Demo user with admin role
+- login: admin@example.com 
+- password: password
+
+- Demo user with user role
+- login: user@example.com
+- password: password
+
 
 ## Test assignment PHP/Laravel 
 
